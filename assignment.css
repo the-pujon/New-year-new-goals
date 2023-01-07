@@ -144,13 +144,16 @@ header > .banner > button {
   background-size: 960px 200px;
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
-  width: 960px;
-  height: 200px;
 }
 
 .blendContainer {
-  padding: 40px 0 30px 30px;
+  padding-left: 30px;
   color: white;
+  width: 960px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .blendContainer > button {
@@ -218,6 +221,8 @@ footer .right input {
 
 footer .right button {
   background-color: #005fac;
+  font-weight: 600;
+  font-size: 15px;
   width: 100px;
   height: 40px;
   border-radius: 5px;
