@@ -7,11 +7,12 @@
 /* header styles*/
 /* for banner  */
 header {
-  background-image: url(images/banner/banner3.png);
+  background-image: url(./images/banner/banner3.png);
   background-size: cover;
   height: 650px;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 header > .banner {
@@ -20,7 +21,7 @@ header > .banner {
   flex-direction: column;
   align-items: flex-end;
   margin-right: 130px;
-  margin-left: 700px;
+  width: 450px;
   gap: 20px;
   color: white;
 }
@@ -139,7 +140,7 @@ header > .banner > button {
 /* for background blend */
 .blend {
   margin: 0 200px 130px 200px;
-  background-image: url(images/watch.png), url(images/gradient1.png);
+  background-image: url(./images/watch.png), url(./images/gradient1.png);
   background-size: 865px 190px;
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
