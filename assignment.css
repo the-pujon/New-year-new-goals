@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header styles*/
+/* for banner  */
+header {
+  background-image: url(images/banner/banner3.png);
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+header > .banner {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 130px;
+  margin-left: 700px;
+  gap: 20px;
+  color: white;
+}
+
+header > .banner > h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+header > .banner > button {
+  width: 100px;
+  height: 40px;
+  color: #005fac;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+/* failures div style*/
+/* for failures of previous year */
+.failures {
+  margin: 130px 200px 130px 200px;
+  display: flex;
+  gap: 70px;
+}
+
+.failures .left > img {
+  height: 500px;
+}
+
+.failures .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 70px;
+}
+
+.failures .right > h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.failures .right p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #444343;
+}
+
+.failures .right > ul {
+  list-style: none;
+  color: #444343;
+}
+
+.failures .right > ul > li > img {
+  width: 15px;
+  height: 15px;
+}
+
+.failures .right > ul > li {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 5px;
+}
+
+/* plan div style */
+/* for my plan and daily routine */
+
+.plan {
+  margin: 0 200px 130px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plan h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.plan ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.plan ul li {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan ul li img {
+  width: 70px;
+}
+
+.plan ul li .planSub {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.plan ul li .planDes {
+  font-weight: 500;
+  font-size: 15px;
+  color: #737272;
+  text-align: center;
+}
+
+/* blend div style */
+/* for background blend */
+.blend {
+  margin: 0 200px 130px 200px;
+  background-image: url(images/watch.png), url(images/gradient1.png);
+  background-size: 865px 190px;
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  width: 865px;
+  height: 190px;
+}
+
+.blendContainer {
+  padding: 30px 0 30px 30px;
+  color: white;
+}
+
+.blendContainer > button {
+  margin-top: 8px;
+  width: 100px;
+  height: 40px;
+  color: #005fac;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+/* footer style */
+footer {
+  background-color: #151414;
+  color: white;
+  height: 250px;
+  padding: 130px 200px;
+  display: flex;
+  gap: 350px;
+}
+
+footer > .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer > .left > h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+footer .left p,
+span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+footer img {
+  width: 30px;
+  margin-left: 8px;
+}
+
+footer .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer.right > h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+footer .right input {
+  background-color: transparent;
+  width: 200px;
+  height: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+footer .right button {
+  background-color: #005fac;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
